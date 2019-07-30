@@ -1,7 +1,12 @@
-1) The MergeSort is very basic merge sort algorithm but the merge method was implemented with a simpler, and easier to understand getNextValue() method.
+1) The MergeSort is very basic merge sort algorithm but the merge method was implemented with a 
+simpler, and easier to understand getNextValue() method.
+It uses memcpy to copy between arrays. 
+The benchmark shows similar performance with element copying.
 
 2) The ImprovedMergeSort is big improvement to the MergeSort by avoid using extra buffer.
 The performance improvement is more than 4 times in a lot cases.
+
+
 
 ===== Test MergeSort =====
 1000000 Iterations, Time difference is 375 milliSeconds
